@@ -8,7 +8,6 @@ packages:
   - 'bash'
   - 'bash-completion'
   - 'blend'
-  - 'blend-settings'
   - 'btrfs-progs'
   - 'dnsmasq'
   - 'dosfstools'
@@ -28,7 +27,6 @@ packages:
   - 'linux-zen'
   - 'linux-zen-headers'
   - 'linux-firmware'
-  - 'linux-firmware-marvell'
   - 'man-db'
   - 'man-pages'
   - 'mdadm'
@@ -63,6 +61,7 @@ packages:
   - 'bluez'
   - 'networkmanager'
   - 'cups'
+  - 'base-devel'
 
 services:
   - 'cups'
