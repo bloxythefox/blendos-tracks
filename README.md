@@ -11,6 +11,8 @@
 
 This is just meant to be a simple fork which takes the base created by ico277, 
 but with the additions of VirtManager and Virtualbox via Garuda's metapkgs for each.
+Anything else should be installed in containers or via flatpak.
+Primarily, this fork's changes will be stored in plasmavirt.yaml
 
 ## Example GNOME `/system.yaml` (vanilla)
 
