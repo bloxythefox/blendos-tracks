@@ -1,0 +1,15 @@
+impl: 'https://github.com/bloxythefox/blendos-tracks/raw/main'
+
+track: 'plasma'
+
+packages:
+  - 'virtualbox-meta'
+  - 'virt-manager-meta'
+
+services:
+  - 'libvirtd' #This will need to be changed in the future, libvirt plans to switch to multiple services for seperate drivers
+  - 'virtlogd'
+
+package-repos:
+    - name: 'chaotic-aur' # repo name as it would appear in pacman.conf
+      repo-url: 'https://cdn-mirror.chaotic.cx/$repo/$arch' # Repo URL as it would appear in pacman.conf
