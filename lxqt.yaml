@@ -5,6 +5,7 @@ track: 'blendos-desktop'
 packages:
   - 'lxqt'
   - 'sddm'
+  - 'xdg-desktop-portal-gtk' #No specific package available for LXQT, sating flatpak dep with generic package
 
 services:
   - 'sddm'

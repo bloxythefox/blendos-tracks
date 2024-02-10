@@ -11,6 +11,7 @@ packages:
   - 'gnome-terminal'
   - 'lightdm'
   - 'lightdm-gtk-greeter'
+  - 'xdg-desktop-portal-xapp' #Enables more flatpak features on Cinnamon
 
 services:
   - 'lightdm'

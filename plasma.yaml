@@ -10,6 +10,7 @@ packages:
   - 'sddm'
   - 'waydroid'
   - 'waydroid-image'
+  - 'xdg-desktop-portal-kde' #Enables extra features for flatpak on KDE
 
 services:
   - 'sddm'

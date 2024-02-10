@@ -6,6 +6,7 @@ packages:
   - 'xfce4'
   - 'lightdm'
   - 'lightdm-gtk-greeter'
+  - 'xdg-desktop-portal-gtk' #No specific package for xfce, using generic package to sate flatpak dep
 
 services:
   - 'lightdm'

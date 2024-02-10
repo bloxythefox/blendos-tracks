@@ -20,6 +20,7 @@ packages:
   - 'blend-settings'
   - 'virtualbox-meta'
   - 'virt-manager-meta'
+  - 'flatpak'
 
 user-services:
   - 'pipewire'
@@ -28,6 +29,7 @@ user-services:
 services:
   - 'libvirtd' #This will need to be changed in the future, libvirt plans to switch to multiple services for seperate drivers
   - 'virtlogd'
+  - 'flatpak-system-helper' #I believe this service is supposed to be enabled? If I'm wrong, send me a PR.
 
 package-repos:
     - name: 'chaotic-aur' # repo name as it would appear in pacman.conf

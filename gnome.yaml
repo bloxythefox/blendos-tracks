@@ -65,6 +65,7 @@ packages:
   - 'gnome-software'
   - 'waydroid'
   - 'waydroid-image'
+  - 'xdg-desktop-portal-gnome' #Enables more features for Flatpak on GNOME
 
 services:
   - 'gdm'
