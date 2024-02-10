@@ -23,7 +23,15 @@ impl: 'https://github.com/blend-os/tracks/raw/main'
 
 track: 'gnome'
 ```
-
+## Important inclusion to '/system.yaml' for this fork
+Ensure your system yaml has this section;
+```
+package-repos:
+    - name: 'chaotic-aur' # repo name as it would appear in pacman.conf
+      repo-url: 'https://cdn-mirror.chaotic.cx/$repo/$arch' # Repo URL as it would appear in pacman.conf
+```
+Otherwise, the garuda meta packages won't be available
+(This is pulled directly from the official v4 guide as well)
 ## Example GNOME `/system.yaml` with Caddy
 
 ```
