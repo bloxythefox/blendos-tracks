@@ -23,6 +23,7 @@ impl: 'https://github.com/blend-os/tracks/raw/main'
 
 track: 'gnome'
 ```
+
 ## Important inclusion to '/system.yaml' for this fork
 Ensure your system yaml has this section;
 ```
@@ -31,7 +32,7 @@ package-repos:
       repo-url: 'https://cdn-mirror.chaotic.cx/$repo/$arch' # Repo URL as it would appear in pacman.conf
 ```
 Otherwise, the garuda meta packages won't be available
-(This is pulled directly from the official v4 guide as well)
+(Details about adding the chaotic AUR were pulled from the official v4 alpha guide)
 ## Example GNOME `/system.yaml` with Caddy
 
 ```
