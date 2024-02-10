@@ -7,6 +7,11 @@
 * MATE: `mate`
 * XFCE: `xfce`
 
+# Fork intentions
+
+This is just meant to be a simple fork which takes the base created by ico277, 
+but with the additions of VirtManager and Virtualbox via Garuda's metapkgs for each.
+
 ## Example GNOME `/system.yaml` (vanilla)
 
 ```
